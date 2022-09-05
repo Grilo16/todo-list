@@ -57,6 +57,12 @@ function App() {
   
   const handleSubmit = (event) => {
     event.preventDefault()
+    if (newTodo === ""){
+      return
+    }
+    if (priorityChoice === ""){
+      return 
+    }
     addTodoItem()
     setNewTodo("")
   };
