@@ -5,9 +5,100 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.top-bar {
+  text-align: center;
+}
+
+.add-new-todo-form {
+
+  background-color: rgb(110, 178, 246);
+  display: flex;
+  width : 15%;
+  margin-left: 42.5%;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.priority-container {
+  display: flex;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.incomplete-tasks-container{
+  background-color: blueviolet;
+  border-radius: 16px;
+  width: 420px;
+}
+
+.completed-tasks-container{
+  background-color: darkolivegreen;
+  border-radius: 16px;
+  width: 420px;
+}
+
+.todo{
+  text-align: center;
+  list-style: none;
+}
+
+.todo-list{
+  padding: 16px;
+}
+
+.completed-tasks{
+  padding: 16px;
+}
+
+.high {
+  background-color: rgb(199, 196, 255);
+  border-style: solid;
+  border-width: 5px;
+  border-color: crimson;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.low{
+  background-color: rgb(199, 196, 255);
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(238, 131, 44);
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.completed{
+  background-color: rgb(199, 196, 255);
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(20, 247, 69);
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.priority-field{
+  background-color: white;
+  width: 80%;
+  border-style: solid;
+  border-radius: 20px;
+  margin-left: 10%;
+}
+
+.buttons{
+  justify-content: center;
+  gap: 5px;
+  display: flex;
 }
