@@ -108,8 +108,6 @@ function App() {
     })
 
     const displayCompletedTodos = completedTodos.map((item, index) => {
-
-      console.log(item)
       return (<li className="todo" key={index}>
       <div className={item.completed
         ?"completed" 
